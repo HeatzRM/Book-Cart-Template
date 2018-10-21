@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>NovelHub</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type ="text/css" href="static/styles.css">
+        <script type="text/javascript" src="scripts.js"></script>
+        <link rel="shortcut icon" href="static/img/vector-anime-chibi-3.png" />
+
+	</head>
+	
+<body>
+<!-- Nav Bar -->
+	<ul>
+      <img style="width: 50px; float: left;" src="static/img/vector-anime-chibi-3.png">
+      <li><a href="index.html">NovelHub</a></li>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="books.html">Books</a></li>
+	  <li><a href="signup.html">Sign Up</a></li>
+	  <li><a href="cart.html">Cart</a></li>
+	</ul>
+
+
+	
+
+<section>
+  <article class="article-style">
+	<h3>Sign up</h3>
+    
+
+    <form>
+        <!-- these are the stuff usually in signupsz-->
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Username</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="username" name="username" placeholder="Enter Username..">
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-25">
+                    <label for="name">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Enter Email..">
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-25">
+                        <label for="name">Password</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="password" name="password" placeholder="Password..">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                        <div class="col-25">
+                            <label for="name">Confirm Password</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password..">
+                        </div>
+                    </div>
+
+
+    </form>
+
+    <div class="row">
+            <input type="Button" value="Submit" onclick="checkvalue()">
+          </div>
+  
+    
+    <div id="snackbar">There are still invalid inputs!!!</div>
+    <div id="snackbar2">Inputs Ok!</div>
+
+	
+  </article>
+</section>
+
+
+	</body>
+</html> 
